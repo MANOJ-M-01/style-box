@@ -14,4 +14,4 @@ const Stylebox= options => {
   });
 };
 
-export default Stylebox
+module.exports.Stylebox=Stylebox;
