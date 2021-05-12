@@ -6,4 +6,20 @@ Get A design Box every time
 
 ` npm i stylebox `
 
-# NPM Packages
+# Then...
+
+```
+import {Stylebox} from 'style-boxs'
+
+Stylebox({
+	shadow_type:'soft',
+	padding:true
+});
+```
+
+## Options
+
+Stylebox support 2 options, both of which are optional:
+
+* *shadow_type* - _hard | soft (Defaults to soft)
+* *padding* - _boolean_ (Defaults to false)
